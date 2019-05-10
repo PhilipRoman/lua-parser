@@ -24,10 +24,10 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  *
- * Project      : lua-parser; a Lua 5.2 grammar/parser
+ * Project      : lua-parser; a Lua 5.3 grammar/parser
  * Developed by : Bart Kiers, bart@big-o.nl
  */
-grammar Lua52;
+grammar Lua53;
 
 options {
  output=AST;

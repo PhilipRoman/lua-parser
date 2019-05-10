@@ -24,13 +24,13 @@
  * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
  * OTHER DEALINGS IN THE SOFTWARE.
  *
- * Project      : lua-parser; a Lua 5.2 grammar/parser
+ * Project      : lua-parser; a Lua 5.3 grammar/parser
  * Developed by : Bart Kiers, bart@big-o.nl
  */
-tree grammar Lua52Walker;
+tree grammar Lua53Walker;
 
 options {
- tokenVocab=Lua52;
+ tokenVocab=Lua53;
  ASTLabelType=CommonTree;
 }
 
@@ -75,7 +75,7 @@ repeat_stat
 assignment
  : ^(ASSIGNMENT ^(VAR_LIST e1=expr_list) ^(EXPR_LIST e2=expr_list))
    {
-     System.out.println("> from Lua52Walker.assignment");
+     System.out.println("> from Lua53Walker.assignment");
      System.out.println(">   VAR_LIST=" + $e1.start.getText());
      System.out.println(">   EXPR_LIST=" + $e2.start.getText());
    }

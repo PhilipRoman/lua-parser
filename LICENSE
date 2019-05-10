@@ -19,5 +19,5 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Project      : lua-parser; a Lua 5.2 grammar/parser
+Project      : lua-parser; a Lua 5.3 grammar/parser
 Developed by : Bart Kiers, bart@big-o.nl
